@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Albums Table</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>Albums Table</h1>
+        <button id="addAlbumBtn">Add Album</button>
+        <input type="text" id="searchInput" placeholder="Search Albums" />
+        <form id="albumForm" style="display: none;">
+            <input type="text" id="title" placeholder="Title" required>
+            <input type="text" id="artist" placeholder="Artist" required>
+            <input type="text" id="genre" placeholder="Genre" required>
+            <input type="number" id="year" placeholder="Release Year" required>
+            <input type="text" id="track" placeholder="Best Track" required>
+            <input type="url" id="youtubeLink" placeholder="YouTube Link" required>
+            <button type="submit">Add Album</button>
+        </form>
+        <table id="albumsTable">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Artist</th>
+                    <th>Genre</th>
+                    <th>Release Year</th>
+                    <th>Best Track</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Rows will be populated dynamically -->
+            </tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

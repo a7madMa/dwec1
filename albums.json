@@ -1,0 +1,203 @@
+{
+  "albums": [
+    {
+      "title": "Graduation",
+      "artist": "Kanye West",
+      "genre": "Hip Hop",
+      "releaseYear": 2007,
+      "track": "Good Morning"
+    },
+    {
+      "title": "Astroworld",
+      "artist": "Travis Scott",
+      "genre": "Hip Hop",
+      "releaseYear": 2018,
+      "track": "COFFEE BEAN"
+    },
+    {
+      "title": "Eternal Atake",
+      "artist": "Lil Uzi Vert",
+      "genre": "Hip Hop",
+      "releaseYear": 2020,
+      "track": "Baby Pluto"
+    },
+    {
+      "title": "To Pimp a Butterfly",
+      "artist": "Kendrick Lamar",
+      "genre": "Hip Hop",
+      "releaseYear": 2015,
+      "track": "Alright"
+    },
+    {
+      "title": "The Marshall Mathers LP",
+      "artist": "Eminem",
+      "genre": "Hip Hop",
+      "releaseYear": 2000,
+      "track": "Stan"
+    },
+    {
+      "title": "Illmatic",
+      "artist": "Nas",
+      "genre": "Hip Hop",
+      "releaseYear": 1994,
+      "track": "N.Y. State of Mind"
+    },
+    {
+      "title": "My Beautiful Dark Twisted Fantasy",
+      "artist": "Kanye West",
+      "genre": "Hip Hop",
+      "releaseYear": 2010,
+      "track": "Runaway"
+    },
+    {
+      "title": "good kid, m.A.A.d city",
+      "artist": "Kendrick Lamar",
+      "genre": "Hip Hop",
+      "releaseYear": 2012,
+      "track": "Bitch, Don't Kill My Vibe"
+    },
+
+    {
+      "title": "The College Dropout",
+      "artist": "Kanye West",
+      "genre": "Hip Hop",
+      "releaseYear": 2004,
+      "track": "Through the Wire"
+    },
+    
+    {
+      "title": "DAMN.",
+      "artist": "Kendrick Lamar",
+      "genre": "Hip Hop",
+      "releaseYear": 2017,
+      "track": "HUMBLE."
+    },
+    {
+      "title": "The Life of Pablo",
+      "artist": "Kanye West",
+      "genre": "Hip Hop",
+      "releaseYear": 2016,
+      "track": "Ultralight Beam"
+    },
+    {
+      "title": "Take Care",
+      "artist": "Drake",
+      "genre": "Hip Hop",
+      "releaseYear": 2011,
+      "track": "Marvins Room"
+    },
+    {
+      "title": "Nothing Was the Same",
+      "artist": "Drake",
+      "genre": "Hip Hop",
+      "releaseYear": 2013,
+      "track": "Started From the Bottom"
+    },
+    {
+      "title": "If You're Reading This It's Too Late",
+      "artist": "Drake",
+      "genre": "Hip Hop",
+      "releaseYear": 2015,
+      "track": "Energy"
+    },
+    {
+      "title": "808s & Heartbreak",
+      "artist": "Kanye West",
+      "genre": "Hip Hop",
+      "releaseYear": 2008,
+      "track": "Heartless"
+    },
+    {
+      "title": "The Blueprint",
+      "artist": "Jay-Z",
+      "genre": "Hip Hop",
+      "releaseYear": 2001,
+      "track": "Renegade"
+    },
+    {
+      "title": "The Chronic",
+      "artist": "Dr. Dre",
+      "genre": "Hip Hop",
+      "releaseYear": 1992,
+      "track": "Nuthin' but a 'G' Thang"
+    },
+    {
+      "title": "Get Rich or Die Tryin'",
+      "artist": "50 Cent",
+      "genre": "Hip Hop",
+      "releaseYear": 2003,
+      "track": "In Da Club"
+    },
+    {
+      "title": "The Carter III",
+      "artist": "Lil Wayne",
+      "genre": "Hip Hop",
+      "releaseYear": 2008,
+      "track": "A Milli"
+    },
+    {
+      "title": "Man on the Moon: The End of Day",
+      "artist": "Kid Cudi",
+      "genre": "Hip Hop",
+      "releaseYear": 2009,
+      "track": "Day 'n' Nite"
+    },
+    {
+      "title": "Reasonable Doubt",
+      "artist": "Jay-Z",
+      "genre": "Hip Hop",
+      "releaseYear": 1996,
+      "track": "Can't Knock the Hustle"
+    },
+    {
+      "title": "The Miseducation of Lauryn Hill",
+      "artist": "Lauryn Hill",
+      "genre": "Hip Hop",
+      "releaseYear": 1998,
+      "track": "Doo Wop (That Thing)"
+    },
+    {
+      "title": "The Slim Shady LP",
+      "artist": "Eminem",
+      "genre": "Hip Hop",
+      "releaseYear": 1999,
+      "track": "My Name Is"
+    },
+    {
+      "title": "Flower Boy",
+      "artist": "Tyler, The Creator",
+      "genre": "Hip Hop",
+      "releaseYear": 2017,
+      "track": "See You Again"
+    },
+    {
+      "title": "Rodeo",
+      "artist": "Travis Scott",
+      "genre": "Hip Hop",
+      "releaseYear": 2015,
+      "track": "Antidote"
+    },
+    {
+      "title": "The Black Album",
+      "artist": "Jay-Z",
+      "genre": "Hip Hop",
+      "releaseYear": 2003,
+      "track": "99 Problems"
+    },
+    {
+      "title": "Tha Carter IV",
+      "artist": "Lil Wayne",
+      "genre": "Hip Hop",
+      "releaseYear": 2011,
+      "track": "She Will"
+    },
+    {
+      "title": "Views",
+      "artist": "Drake",
+      "genre": "Hip Hop",
+      "releaseYear": 2016,
+      "track": "Hotline Bling"
+    }
+    
+  ]
+}

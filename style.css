@@ -1,0 +1,301 @@
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #2c4454;
+  color: #fff;
+  text-align: center;
+}
+
+h1 {
+  margin: 40px 0;
+  font-size: 3.5em;
+  font-weight: bold;
+  color: #40b16d;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.7);
+  font-family: "Arial Black", sans-serif;
+}
+/* Estilos para la página de bienvenida */
+.welcome-container {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  background-color: #2c4454;
+  color: #fff;
+  text-align: center;
+  padding: 100px;
+}
+
+.welcome-container h1 {
+  font-size: 3.5em;
+  color: #40b16d;
+}
+
+.welcome-container p {
+  font-size: 1.5em;
+  color: #ddd;
+}
+
+#welcomeButton {
+  padding: 12px 30px;
+  font-size: 1.3rem;
+  background-color: #40b16d;
+  color: #ffffff;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  text-transform: uppercase;
+}
+
+#welcomeButton:hover {
+  background-color: #f0e6d3;
+  transform: scale(1.05);
+}
+
+/* Estilos las imagenes de la página principal (index.html) */
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #2c4454;
+  color: #fff;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3em;
+  margin: 20px 0;
+  color: #40b16d;
+  text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.7);
+}
+
+.intro {
+  padding: 40px;
+  background-color: #333;
+  text-align: center;
+}
+
+#enterBtn {
+  background-color: #40b16d;
+  color: #fff;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 50px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#enterBtn:hover {
+  background-color: #f0e6d3;
+  transform: scale(1.05);
+}
+
+.album-collage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.album-collage img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease;
+}
+
+.album-collage img:hover {
+  transform: scale(1.1);
+}
+/* AQUI TERMINA INDEX.HTML
+ Estilos para la página de bienvenida */
+
+#albumsTable {
+  width: 90%;
+  max-width: 1200px;
+  margin: 30px auto;
+  border-collapse: collapse;
+  background-color: #333;
+  border-radius: 10px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.4);
+}
+
+#albumsTable th,
+#albumsTable td {
+  padding: 15px;
+  text-align: center;
+  font-size: 1.2rem;
+  color: #ddd;
+}
+
+#albumsTable th {
+  background-color: #212121;
+  color: #5c7ca4;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-bottom: 2px solid #444;
+}
+
+#albumsTable tr:nth-child(even) {
+  background-color: #444;
+}
+
+#albumsTable tr:nth-child(odd) {
+  background-color: #333;
+}
+
+#albumsTable tr:hover {
+  background-color: #555;
+  cursor: pointer;
+}
+
+#albumsTable td {
+  border-bottom: 1px solid #444;
+}
+
+#albumsTable td:first-child {
+  font-weight: bold;
+  color: #40b16d;
+}
+
+#albumsTable td:last-child {
+  font-style: italic;
+  color: #40b16d;
+}
+
+#albumsTable caption {
+  margin-bottom: 20px;
+  font-size: 1.6em;
+  color: #40b16d;
+  font-family: "Arial Black", sans-serif;
+}
+
+#albumsTable a {
+  color: #40b16d;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+#albumsTable a:hover {
+  color: #40b16d;
+  text-decoration: none;
+}
+
+#addAlbumBtn {
+  display: inline-block;
+  margin-bottom: 20px;
+  padding: 12px 30px;
+  font-size: 1.3rem;
+  background-color: #40b16d;
+  color: #ffffff;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+#addAlbumBtn:hover {
+  background-color: #f0e6d3;
+  transform: scale(1.05);
+}
+
+#albumForm {
+  display: none;
+  margin-bottom: 30px;
+}
+
+#albumForm input {
+  margin-right: 15px;
+  padding: 12px;
+  font-size: 1.2rem;
+  border: 1px solid #888;
+  border-radius: 5px;
+  background-color: #555;
+  color: #fff;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+#albumForm input:focus {
+  border-color: #40b16d;
+  box-shadow: 0 2px 6px #40b16d;
+}
+
+#albumForm button {
+  padding: 12px 24px;
+  font-size: 1.2rem;
+  color: #fff;
+  background-color: #40b16d;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#albumForm button:hover {
+  background-color: #f0e6d3;
+}
+
+#searchInput {
+  display: block;
+  width: 100%;
+  max-width: 350px;
+  margin: 20px auto;
+  padding: 12px;
+  font-size: 1.2rem;
+  border: 1px solid #888;
+  border-radius: 5px;
+  background-color: #555;
+  color: #f0e6d3;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+#searchInput:focus {
+  border-color: #40b16d;
+  box-shadow: 0 2px 4px #40b16d;
+}
+
+#searchInput::placeholder {
+  color: #5c7ca4;
+}
+
+.action-btn {
+  padding: 12px 12px;
+  margin: auto;
+  font-size: 0.9rem;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  flex: 1;
+  text-align: justify;
+}
+
+.edit-btn {
+  background-color: #40b16d;
+}
+
+.edit-btn:hover {
+  background-color: #f0e6d3;
+  transform: scale(1.1);
+}
+
+.delete-btn {
+  background-color: #284061;
+}
+
+.delete-btn:hover {
+  background-color: #304f79;
+  transform: scale(1.1);
+}
