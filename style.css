@@ -113,8 +113,7 @@ h1 {
 .album-collage img:hover {
   transform: scale(1.1);
 }
-/* AQUI TERMINA INDEX.HTML
- Estilos para la página de bienvenida */
+/* Estilos para la página de albums (albums.html) */
 
 #albumsTable {
   width: 90%;
