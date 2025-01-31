@@ -5,7 +5,7 @@ async function fetchAlbums() {
 
     console.log(data); // Verifica la estructura de la respuesta
 
-    const albums = data.albums || []; // Asumiendo que los álbumes están dentro de la propiedad 'albums'
+    const albums = data.albums || []; 
 
     const tableBody = document
       .getElementById("albumsTable")
@@ -65,7 +65,7 @@ document
     const genre = document.getElementById("genre").value;
     const year = document.getElementById("year").value;
     const track = document.getElementById("track").value;
-    const youtubeLink = document.getElementById("youtubeLink").value; // Assuming you have an input for YouTube link
+    const youtubeLink = document.getElementById("youtubeLink").value; 
 
     const table = document
       .getElementById("albumsTable")
@@ -100,7 +100,7 @@ document
       genreCell.textContent = genre;
       yearCell.textContent = year;
       trackCell.textContent = track;
-      trackCell.style.color = "#40b16d"; // Apply the color to the Best Track cell
+      trackCell.style.color = "#40b16d"; 
 
       const editBtn = document.createElement("button");
       editBtn.textContent = "Edit";
@@ -140,7 +140,7 @@ function editAlbum(row) {
   document.getElementById("track").value = track;
 
   document.getElementById("albumForm").style.display = "block";
-  document.getElementById("albumForm").dataset.editing = row.dataset.id; // Set editing state
+  document.getElementById("albumForm").dataset.editing = row.dataset.id; 
 }
 
 function deleteAlbum(row) {

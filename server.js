@@ -19,7 +19,7 @@ const FTP_CONFIG = {
 };
 
 
-const JSON_FILE_PATH = "albums.json"; // Cambié la extensión a .json
+const JSON_FILE_PATH = "albums.json"; 
 
 
 app.get("/albums", async (req, res) => {
@@ -28,17 +28,17 @@ app.get("/albums", async (req, res) => {
         await client.access(FTP_CONFIG);
 
 
-        // Download the JSON file from the FTP server
+       
         await client.downloadTo(JSON_FILE_PATH, JSON_FILE_PATH);
 
 
-        // Read and parse the JSON file
+        
         const jsonData = fs.readFileSync(JSON_FILE_PATH, "utf8");
-        const albums = JSON.parse(jsonData); // Parse JSON data directly
+        const albums = JSON.parse(jsonData); 
 
 
-        // Send parsed data to the frontend
-        res.json(albums); // Assuming albums is already in JSON format
+       
+        res.json(albums); 
     } catch (err) {
         console.error("Error accessing FTP server:", err);
         res.status(500).send("Failed to fetch data from FTP server.");
