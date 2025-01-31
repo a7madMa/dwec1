@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<albums>
+    <album>
+        <title>Graduation</title>
+        <artist>Kanye West</artist>
+        <genre>Hip Hop</genre>
+        <releaseYear>2007</releaseYear>
+
+        <track>Good Morning</track>
+
+    </album>
+
+    <album>
+        <title>Astroworld</title>
+        <artist>Travis Scott</artist>
+        <genre>Hip Hop</genre>
+        <releaseYear>2018</releaseYear>
+
+        <track>COFFEE BEAN</track>
+
+    </album>
+    <album>
+        <title>Eternal Atake</title>
+        <artist>Lil Uzi Vert</artist>
+        <genre>Hip Hop</genre>
+        <releaseYear>2020</releaseYear>
+        <track>Baby Pluto</track>
+    </album>
+    <album>
+    <title>To Pimp a Butterfly</title>
+        <artist>Kendrick Lamar</artist>
+        <genre>Hip Hop</genre>
+        <releaseYear>2015</releaseYear>
+        <track>Alright</track>
+    
+    </album>
+</albums>
